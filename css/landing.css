@@ -65,14 +65,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .navshow {
-    background: grey !important;
-  }
-
-  #nav-cont {
-    padding: 0 !important;
-  }
-
   .cont {
     width: 100vw;
   }

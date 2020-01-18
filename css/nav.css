@@ -91,6 +91,14 @@
     position: fixed;
   }
 
+  .navshow {
+    background: grey !important;
+  }
+
+  #nav-cont {
+    padding: 0 !important;
+  }
+
   .logo {
     display: none;
   }
