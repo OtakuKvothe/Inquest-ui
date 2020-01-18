@@ -55,7 +55,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/bg2.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="css/leader.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/questions.css" />
   </head>
   <body>
     <canvas id="stars" width="300" height="300"></canvas>
@@ -80,43 +81,39 @@
       </div>
     </nav>
 
-    <div class="table">
-      <div class="table-cell">
-        <ul class="leader">
-          <div class="container" dinstyle="z-index: 0;">
-            <div class="row heading">
-              <h1>
-                Leaderboards
-              </h1>
-            </div>
+    <div class="container ques-bl">
+      <div class="row">
+        <div class="plate info col-xs-6 col-sm-1 col-sm-offset-1">
+          <div class="content">
+            <h3>Online Players</h3>
+            <p style="color: whitesmoke;">Information</p>
           </div>
-          <li
-            style="background-color: transparent; color: white; box-shadow: none; text-decoration: solid; widows: inherit;"
-          >
-            <span class="list_num" style="color: white;">#</span>
-
-            <h2>
-              Username<span class="gap">College</span
-              ><span class="number" style="color: white;">Score</span>
-            </h2>
-          </li>
-          <li class="top" style="background-color: yellow;">
-            <span class="list_num">#</span>
-
-            <h2>
-              Username<span class="gap">College</span
-              ><span class="number">Score</span>
-            </h2>
-          </li>
-          <li>
-            <span class="list_num">#</span>
-
-            <h2>
-              Username<span class="gap">College</span
-              ><span class="number">Score</span>
-            </h2>
-          </li>
-        </ul>
+        </div>
+        <div id="question" class="plate col-xs-12 col-sm-8">
+          <img
+            src="img/sample.jpg"
+            style="width: 90%; height: auto; border-radius: 10px;"
+          />
+          <div class="content">
+            <h3 style="margin-top: 3vh; color: whitesmoke;">Text/Hint</h3>
+          </div>
+          <form>
+            <input
+              style="margin-top: 2vh; border-radius: 18px;"
+              id="input-1"
+              type="text"
+              placeholder="   answer"
+              required
+              autofocus
+            />
+          </form>
+        </div>
+        <div id="rank" class="plate info col-xs-6 col-sm-1">
+          <div class="content" style="justify-content: center;">
+            <h3>Your Rank</h3>
+            <p style="color: whitesmoke;">Information</p>
+          </div>
+        </div>
       </div>
     </div>
 

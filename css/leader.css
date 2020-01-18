@@ -10,6 +10,10 @@
   color: white;
 }
 
+.heading h1 {
+  text-align: center;
+}
+
 .table {
   display: table;
   width: 100%;
@@ -100,13 +104,23 @@
 }
 
 @media only screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .leader {
-    width: 95vw;
+    width: 70vw;
     display: inline;
+  }
+
+  .heading h1 {
+    text-align: center;
+    margin-left: 12vw;
   }
 
   .table {
     width: 100%;
+    margin-top: -100px;
   }
 
   .gap {
