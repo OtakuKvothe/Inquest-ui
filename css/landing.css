@@ -11,16 +11,14 @@
   height: auto;
   width: 600px;
   margin: 20px;
-  border-radius: 3px;
-  padding: 15px;
+  border-radius: 6px;
+  padding: 25px 30px;
   transition: color 0.3s ease;
+  /* box-shadow: #eaeaea -2px 2px 3px 11px; */
 }
 
 .block:hover > .bl_text {
   color: #9a3293;
-}
-
-.block_rw {
 }
 
 .info_el {
@@ -41,7 +39,7 @@
 }
 
 .bl_header {
-  font-size: 42px;
+  font-size: 1.3em;
   font-weight: bolder;
   color: black;
 }
@@ -67,6 +65,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navshow {
+    background: grey !important;
+  }
+
+  #nav-cont {
+    padding: 0 !important;
+  }
+
   .cont {
     width: 100vw;
   }
